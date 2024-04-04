@@ -8,6 +8,27 @@ One of the principle goals of this playground is to always use a local Large Lan
 
 conda activate autogen
 
+## Thursday, April 4, 2024
+
+Trying 'agentchat_RetrieveChat (1).ipynb' again ... 
+
+* pip install pyautogen[retrievechat] flaml[automl]
+
+So clearly which model you use makes a difference when running these notebooks. OpenAI works, and LMStudio does not ... maybe try different HuggingFace models?
+
+## Wednesday, April 3, 2024
+
+Getting back to playing with AutoGen and AutoGen Studio ...
+
+## Thursday, January 25, 2024
+
+The notebook 'agentchat_RetrieveChat.ipynb' required I install chromadb.
+
+1) mamba install conda-forge::chromadb
+2) mamba install pypdf
+3) mamba install sentence-transformers
+4) mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+
 ## Wednesday, January 24, 2024
 
 The first code sample from the above repo was not working. A little digging reveals the code may no longer work with the current release of autogen. 
@@ -35,17 +56,8 @@ Nope! Still problems ... so ran ...
 
 The original 'agentchat_RetrieveChat.ipynb' I am going to leave untouched, and then download the most current version of this notebook to 'agentchat_RetrieveChat (1).ipynb'
 
-## Thursday, January 25, 2024
 
-The notebook 'agentchat_RetrieveChat.ipynb' required I install chromadb.
 
-1) mamba install conda-forge::chromadb
-2) mamba install pypdf
-3) mamba install sentence-transformers
-4) mamba install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 
-## Wednesday, April 3, 2024
-
-Getting back to playing with AutoGen and AutoGen Studio ...
 
 
